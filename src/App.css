@@ -1,0 +1,89 @@
+@import url("https://fonts.googleapis.com/css2?family=Neucha&display=swap");
+.App {
+  width: 100vw;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #2f74c0;
+  font-family: "Neucha", cursive;
+}
+
+.header {
+  text-transform: uppercase;
+  font-size: 40px;
+  margin: 30px;
+  color: white;
+  text-align: center;
+}
+
+.container{
+  width: 90%;
+  margin: auto;
+  padding-top: 100px;
+  display: flex;
+}
+
+.btn-menu{
+  display: flex;
+}
+
+.btn-menu button{
+  width: 100px;
+  background-color: #b74555;
+  color: white;
+  border-radius: 10px;
+  font-family: "Neucha", cursive;
+  font-size: 22px;
+}
+
+.pokemon{
+  box-shadow:rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+  background-color: #188a44;
+  font-size: 18px;
+  border-radius: 10px;
+  text-transform: uppercase;
+  color: white;
+}
+
+.pokemon-list{
+  padding-bottom: 10px;
+}
+
+.button-main {
+  background-color: #EA4C89;
+  border-radius: 8px;
+  border-style: none;
+  box-sizing: border-box;
+  color: #FFFFFF;
+  cursor: pointer;
+  display: inline-block;
+  font-family: "Haas Grot Text R Web", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  height: 40px;
+  line-height: 20px;
+  list-style: none;
+  margin: 0;
+  outline: none;
+  padding: 10px 16px;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  transition: color 100ms;
+  vertical-align: baseline;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  margin-left: 10px;
+}
+
+.button-main:hover,
+.button-main:focus {
+  background-color: #F082AC;
+}
+
+.img{
+  width: 100%;
+  height: auto;
+}
